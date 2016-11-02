@@ -27,9 +27,9 @@ with(dat_t, plot( DateTime, Global_active_power,
                   lty=1, lwd=1, pch=".") )
 # Upper right plot
 with(dat_t, plot( DateTime, Voltage, 
-                  xlab = "",
+                  xlab = "DateTime",
                   ylab = "Voltage",
-                  type="l",
+                  type="l", 
                   lty=1, lwd=1, pch=".") )
 # Lower left plot
 with(dat_t, plot( DateTime, Sub_metering_1, 
@@ -46,9 +46,9 @@ legend("topright", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"
 
 # Lower right plot
 with(dat_t, plot( DateTime, Global_reactive_power, 
-                  xlab = "",
+                  xlab = "DateTime",
                   ylab = "Global Reactive Power",
-                  type="l",
+                  type="l", 
                   lty=1, lwd=1, pch=".") )
 
 dev.off()
