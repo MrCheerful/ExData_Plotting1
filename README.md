@@ -1,15 +1,14 @@
 # JHU - Exploratory Data Analysis - Project 1
-**Submission 2-Nov-2016**
-**Ken Melax** :smile:
+**Submission 2016-11-02**
+
+**by: Ken Melax** :smile:
 
 Thank you for taking the time to mark this assignment.  
 The four R files all have the same begining section, in which the following tasks are completed:
 
 1. Load in the file household_power_consumption.txt which is in a sub folder called data.  
-
-> file="data/household_power_consumption.txt"
-
-Arguments are set to pick up the header row, recognize ? as the NA indicator, and to not convert the date and time fields to factors.
+    *file="data/household_power_consumption.txt"
+    *Arguments are set to pick up the header row, recognize ? as the NA indicator, and to not convert the date and time fields to factors.
 
 2. Clean up the date format.
 
@@ -20,11 +19,13 @@ Arguments are set to pick up the header row, recognize ? as the NA indicator, an
 From here, each file then has the code for creating the relevant plot.
 Note that all plots are .png format, which by default is 480 x 480 so this argument wasn't touched.
 
-Have an awesome day\!\!  :sunny:
+_Have an awesome day\!\!_  :sunny:
 
 
 
+---
 
+# Original README.md follows
 
 ---
 
